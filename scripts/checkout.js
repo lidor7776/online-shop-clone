@@ -100,3 +100,4 @@ document.querySelectorAll(".js-delete-link").forEach((link) => {
     console.log(cart);
   });
 });
+// Testing GitHub contributions - Lidor
