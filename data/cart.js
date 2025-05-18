@@ -1,5 +1,4 @@
 export let cart = JSON.parse(localStorage.getItem("cart"));
-console.log(cart);
 
 if (!cart) {
   cart = [
@@ -52,5 +51,18 @@ export function removeFromCart(productId) {
 
   cart = newCart;
 
+  saveToStorage();
+}
+
+export function updateDeliveryOption(productId, deliveryOptionId) {
+  let matchingItem;
+
+  cart.forEach((cartItem) => {
+    if (productId === cartItem.productId) {
+      matchingItem = cartItem;
+    }
+  });
+
+  matchingItem.deliveryOptionId = deliveryOptionId;
   saveToStorage();
 }
