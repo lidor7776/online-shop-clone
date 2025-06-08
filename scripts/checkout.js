@@ -5,8 +5,6 @@ import { loadCart } from "../data/cart.js";
 //import "../data/cart-class.js";
 
 async function loadPage() {
-  console.log("load page");
-
   await loadProductsFetch();
 
   await new Promise((resolve) => {
