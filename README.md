@@ -7,7 +7,7 @@ Built as part of my personal learning journey to become a full-stack web develop
 
 ## 🔗 Live Demo
 
-👉 [View the live site on Render](https://online-shop-clone.onrender.com)
+👉 [View the live site on Render]( https://online-shop-clone.onrender.com )
 
 > ⚠️ This project is for **educational purposes only**. It is **not affiliated** with any real brand or company.
 
